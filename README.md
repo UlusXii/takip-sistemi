@@ -5,7 +5,7 @@ Discord üzerinde istediğiniz kişileri gizlice takip etmek artık daha kolay.
 
 - Takip etmek istediğiniz kişinin olduğu tüm sunuculara girin, sunuculara kayıt olmanıza gerek yoktur. Cezalı rolü bile olsa yeterli.
 
--Fake hesabınızdan bir sunucu oluşturun ve ana hesabınızı oraya davet edin. Bu kurduğunuz sunucu üzerinde fake hesabınız ile takip ettiğiniz kişinin etkinliklerini "mesaj" olarak depolayacaksınız.
+- Fake hesabınızdan bir sunucu oluşturun ve ana hesabınızı oraya davet edin. Bu kurduğunuz sunucu üzerinde fake hesabınız ile takip ettiğiniz kişinin etkinliklerini "mesaj" olarak depolayacaksınız.
 
 - Index.js üzerinde yapmanız gereken değişiklikler;
 1 ) CTRL + F kombinasyonunu kullanarak " SUNUCU IDNIZ " ve " KANAL IDNIZ " kelimelerini aratın ve kendinize göre değiştirin.
