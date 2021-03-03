@@ -1,5 +1,5 @@
 # takip-sistemi
-Discord üzerinde istediğiniz kişileri gizlice takip etmek artık daha kolay.
+**Discord üzerinde istediğiniz kişileri gizlice takip etmek artık daha kolay.**
 
 **Kurulum**
 ------------
