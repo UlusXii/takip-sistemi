@@ -73,3 +73,4 @@ client.on("presenceUpdate", (oldMember, newMember) => {
    
     }
   }});
+client.login(ayarlar.token);
