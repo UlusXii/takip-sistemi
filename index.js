@@ -2,6 +2,7 @@
   @author Ulus Xii  <Discord: Ulus Xii#0421> <Mail: ulusdll@protonmail.com>
   @description It automatically follows the people you want to follow.
   @version v1.2
+  @discord.js version v11.4.2
 **/
 
 
