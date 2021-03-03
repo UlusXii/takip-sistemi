@@ -17,4 +17,4 @@ Discord üzerinde istediğiniz kişileri gizlice takip etmek artık daha kolay.
 2. ) CTRL + F kombinasyonunu kullanarak " takip etmek istediğiniz isim " cümlesini aratın ve kendinize göre değiştirin.
 
 -  Ayarlar.json üzerinde yapmanız gereken değişiklikler;
-- Token : "tokeniniz" değerini değiştirin ve kendi fake hesabınızın tokenini girin.
+1. Token : "tokeniniz" değerini değiştirin ve kendi fake hesabınızın tokenini girin.
