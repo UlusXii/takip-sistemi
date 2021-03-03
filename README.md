@@ -12,9 +12,9 @@ Discord üzerinde istediğiniz kişileri gizlice takip etmek artık daha kolay.
 
 **Ayarlamalar**
 ------------
-** - Index.js üzerinde yapmanız gereken değişiklikler;**
+- **  Index.js üzerinde yapmanız gereken değişiklikler;**
 1. ) CTRL + F kombinasyonunu kullanarak " SUNUCU IDNIZ " ve " KANAL IDNIZ " kelimelerini aratın ve kendinize göre değiştirin.
 2. ) CTRL + F kombinasyonunu kullanarak " takip etmek istediğiniz isim " cümlesini aratın ve kendinize göre değiştirin.
 
-** - Ayarlar.json üzerinde yapmanız gereken değişiklikler;**
+- **  Ayarlar.json üzerinde yapmanız gereken değişiklikler;**
 1 ) Token : "tokeniniz" değerini değiştirin ve kendi fake hesabınızın tokenini girin.
