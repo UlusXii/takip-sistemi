@@ -24,10 +24,10 @@ client.on('ready', () => {
 client.on("messageDelete", async deletedMessage => {
     if (deletedMessage.author.bot || deletedMessage.channel.type === "dm" || deletedMessage.author.id == takipedilen) return;
     if(deletedMessage.author.id === hesap) return;
-    if(!deletedMessage.content.includes("hansel")) return;
+    if(!deletedMessage.content.includes("takip etmek istediğiniz isim")) return;
       let bahsedilensunucu = deletedMessage.guild.name;
       let sunucuadi = bahsedilensunucu;
-    client.guilds.get('SUNUCU IDNIZ').channels.get('KANAL IDNIZ').sendEmbed(new Discord.RichEmbed().setDescription("``"+`${sunucuadi}`+"``"+" "+"Sunucusunda "+" "+ "<@"+`${deletedMessage.author.id}`+"> "+" "+"adındaki kullanıcı Hansel'den şöyle bahsetti: "+ " ``"+`${deletedMessage}`+"``").setColor("#FFFF00").setTimestamp());
+    client.guilds.get('SUNUCU IDNIZ').channels.get('KANAL IDNIZ').sendEmbed(new Discord.RichEmbed().setDescription("``"+`${sunucuadi}`+"``"+" "+"Sunucusunda "+" "+ "<@"+`${deletedMessage.author.id}`+"> "+" "+"adındaki kullanıcı takip ettiğiniz kişiden şöyle bahsetti: "+ " ``"+`${deletedMessage}`+"``").setColor("#FFFF00").setTimestamp());
   });
    
   //Takip ettiğiniz kişinin ismini bir yazı kanalında paylaşıldığında size mesaj gönderir.
@@ -44,7 +44,7 @@ client.on("messageDelete", async deletedMessage => {
       let bahsedenkisi = SentedMessage.author.tag;
       let takipsunucusu = client.guilds.get('812505935280472084');
       if(SentedMessage.guild.id === takipsunucusu) return;
-      client.guilds.get('SUNUCU IDNIZ').channels.get('KANAL IDNIZ').sendEmbed(new Discord.RichEmbed().setDescription("``"+`${sunucuadi}`+"``"+" "+"Sunucusunda "+" <@"+ `${SentedMessage.author.id}`+"> "+"adındaki kullanıcı hansel şöyle bahsetti"+" ``"+`${bahsedilenmesaj}`+"``").setColor("RED").setTimestamp());
+      client.guilds.get('SUNUCU IDNIZ').channels.get('KANAL IDNIZ').sendEmbed(new Discord.RichEmbed().setDescription("``"+`${sunucuadi}`+"``"+" "+"Sunucusunda "+" <@"+ `${SentedMessage.author.id}`+"> "+"adındaki kullanıcı takip ettiğiniz kişiden şöyle bahsetti"+" ``"+`${bahsedilenmesaj}`+"``").setColor("RED").setTimestamp());
     }})
    
 ///Takip ettiğiniz kişi online/çevrimdışı/rahatsız etmeyin moduna geçtiğinde mesaj gönderir.
